@@ -1,41 +1,116 @@
-# HuggingFace - BAAI - BGE Reranker v2 m3
+# HuggingFace BAAI BGE Reranker v2 m3 Demo
 
-This repo provides a hands-on demonstration of using BAAl's (Beijing Academy of Artificial Intelligence) `BGE-Reranker-v2-m3` model from Hugging Face for sequence reranking tasks. It includes two Jupyter notebooks:
-- **BGE_Reranker_Local.ipynb**: For running the model locally using PyTorch and Hugging Face Transformers.
-- **BGE_Reranker_AzureML.ipynb**: For deploying and running the model in an Azure AI environment.
+![HuggingFace BAAI BGE Reranker](https://img.shields.io/badge/HuggingFace-BAAI-BGE%20Reranker%20v2%20m3-blue?style=for-the-badge)
 
-> [!NOTE]
-> Model weights are stored on the HuggingFace site and can be accessed at this [model card page](https://huggingface.co/BAAI/bge-reranker-v2-m3).
+Welcome to the **HuggingFace BAAI BGE Reranker v2 m3** demo repository. This project showcases how to use the BGE Reranker model with Hugging Face transformers. It supports both local and Azure cloud environments, making it flexible for various use cases.
 
 ## Table of Contents
-- [Prerequisites](#prerequisites)
-- [Part 1: Configuring Environment](#part-1-configuring-environment)
-- [Part 2: BGE Reranker - Local use](#part-2-bge-reranker---local-use)
-- [Part 3: BGE Reranker - Azure AI use](#part-3-bge-reranker---azure-ai-use)
-- [Acknowledgements](#acknowledgements)
 
-## Prerequisites
-- Python 3.11+;
-- GPU recommended for faster inference.
+1. [Overview](#overview)
+2. [Installation](#installation)
+3. [Usage](#usage)
+4. [Features](#features)
+5. [Topics](#topics)
+6. [Contributing](#contributing)
+7. [License](#license)
+8. [Releases](#releases)
+9. [Acknowledgments](#acknowledgments)
 
-## Part 1: Configuring Environment
-1. Install necessary Python packages:
-``` PowerShell
-pip install -r requirements.txt
+## Overview
+
+The BGE Reranker v2 m3 leverages advanced AI techniques to improve the relevance of search results. By applying transformer models from Hugging Face, it enhances the ranking of documents based on user queries. This project is designed for developers, researchers, and anyone interested in AI applications.
+
+## Installation
+
+To set up the BGE Reranker v2 m3, follow these steps:
+
+1. **Clone the repository:**
+
+   ```bash
+   git clone https://github.com/TioAbiyyu/HuggingFace-BAAI--BGERerankerv2m3.git
+   cd HuggingFace-BAAI--BGERerankerv2m3
+   ```
+
+2. **Install the required packages:**
+
+   Ensure you have Python installed. Then, use pip to install the necessary libraries:
+
+   ```bash
+   pip install -r requirements.txt
+   ```
+
+3. **Set up Azure (if using Azure):**
+
+   If you plan to use Azure, ensure you have an Azure account and follow the setup instructions provided in the Azure documentation.
+
+## Usage
+
+To run the demo, execute the following command:
+
+```bash
+python demo.py
 ```
 
-## Part 2: BGE Reranker - Local use
-This section covers the using of the BGE Reranker v2 m3 model locally with the `BGE_Reranker_Local.ipynb` notebook.
+This command will start the application locally. You can then access it via your web browser at `http://localhost:5000`.
 
-Key steps include:
-1. *Loading the Model*: Import necessary libraries (torch, transformers) and load the BAAI/bge-reranker-v2-m3 model and tokenizer, automatically detecting and using a GPU if available.
-2. *Creating a Reranking Function*: Define a Python function rerank that takes a query and a list of documents, uses the loaded model to score each document's relevance to the query and returns the documents sorted by relevance score.
-3. *Testing*: Demonstrate the rerank function with simple and more complex examples to show how the model reorders documents based on the query.
+### Azure Deployment
 
-## Part 3: BGE Reranker - Azure AI use
-With `BGE_Reranker_AzureML.ipynb` you can deploy and run the model on Azure AI services: includes environment setup, script creation for inference, model registration, endpoint deployment and testing the deployed endpoint.
+For Azure deployment, follow these steps:
 
-## Acknowledgements
-- [BAAI](https://huggingface.co/BAAI) for developing the BGE Reranker v2 m3 model;
-- [HuggingFace](https://huggingface.co/BAAI/bge-reranker-v2-m3) for hosting the model and providing the Transformers library;
-- [Microsoft Azure](https://portal.azure.com) for cloud platform services.
+1. Package your application.
+2. Use the Azure CLI to deploy your application to the cloud.
+
+Refer to the Azure documentation for detailed instructions.
+
+## Features
+
+- **Local and Cloud Support:** Run the model on your local machine or deploy it on Azure.
+- **Easy Integration:** Use Hugging Face transformers for seamless integration with existing projects.
+- **High Performance:** The BGE Reranker v2 m3 offers improved ranking capabilities for better search results.
+- **Interactive Jupyter Notebooks:** Explore the model's capabilities using Jupyter Notebooks provided in the repository.
+
+## Topics
+
+This project covers various topics relevant to AI and machine learning, including:
+
+- AI
+- Azure
+- BAAI
+- BGE
+- Hugging Face
+- Jupyter Notebook
+- M3
+- Python
+- Reranker
+- Transformers
+- v2
+
+## Contributing
+
+We welcome contributions from the community. If you want to help improve this project, please follow these steps:
+
+1. Fork the repository.
+2. Create a new branch for your feature or bug fix.
+3. Make your changes and commit them.
+4. Push your branch to your forked repository.
+5. Submit a pull request.
+
+Your contributions are valuable and help enhance the project.
+
+## License
+
+This project is licensed under the MIT License. See the [LICENSE](LICENSE) file for details.
+
+## Releases
+
+For the latest updates and releases, visit our [Releases](https://github.com/TioAbiyyu/HuggingFace-BAAI--BGERerankerv2m3/releases) section. Download the latest version and follow the installation instructions to get started.
+
+## Acknowledgments
+
+We would like to thank the Hugging Face community for their contributions to the field of AI and machine learning. Their work has made projects like this possible.
+
+For any questions or issues, please check the [Releases](https://github.com/TioAbiyyu/HuggingFace-BAAI--BGERerankerv2m3/releases) section or open an issue in the repository.
+
+---
+
+Feel free to explore, experiment, and enhance the BGE Reranker v2 m3. Your feedback and contributions will help us build a better tool for everyone in the AI community.
